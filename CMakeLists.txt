@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.21)
+PROJECT(runcolmap)
+ADD_SUBDIRECTORY(src bin)
+#INSTALL(FILES COPYRIGHT README DESTINATION share/doc/camke/)
+#INSTALL(PROGRAMS run.sh DESTINATION bin)
+#INSTALL(DIRECTORY doc/ DESTINATION share/doc/camke)
